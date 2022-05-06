@@ -1,0 +1,16 @@
+(* WHILE.cm Build project *)
+Group
+
+is
+    datatypes.sml
+    WHILE.lex 
+    WHILE.yacc:MLYacc
+    lexerparsergen.sml
+    while_ast.sml
+    Stack.sml
+    evaluator.sml
+
+    
+    $/basis.cm          (* SML/NJ’s Basis Library. *)
+    $/ml-yacc-lib.cm    (* Code written by Lucent. *)
+    $smlnj/compiler/compiler.cm (* Structure Compiler. *)
